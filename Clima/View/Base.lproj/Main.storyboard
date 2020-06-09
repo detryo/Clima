@@ -127,6 +127,9 @@
                                             <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="getWeatherPressed:" destination="nmo-Ub-QPG" eventType="touchUpInside" id="qrT-YA-ljG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQW-bO-yFC" userLabel="Back Button">
                                         <rect key="frame" x="16" y="28" width="32" height="32"/>
@@ -176,7 +179,6 @@
                     <navigationItem key="navigationItem" id="Dbz-ke-2aa"/>
                     <connections>
                         <outlet property="changeCityTextField" destination="8JB-18-hlj" id="dj7-sY-ZKk"/>
-                        <outlet property="getWeatherPressed" destination="RE7-G0-zJE" id="pvL-6Q-IcY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G3r-8U-W3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
